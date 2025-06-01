@@ -12,7 +12,13 @@ if menu == "View Jobs":
     st.table(jobs)
 
 elif menu == "Post Job":
-    # form to enter job details and submit
+    # Placeholder for job posting form
+    st.header("Post a New Job")
+    st.write("Form to post a job will go here.")
+    pass  # remove once form is implemented
 
 elif menu == "Apply":
-    # list jobs and apply form
+    st.header("Apply to a Job")
+    st.write("Form to apply for a job will go here.")
+    pass  # remove once apply form is implemented
+
