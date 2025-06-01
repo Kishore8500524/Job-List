@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from crud import fetch_jobs, post_job, apply_job
+from crud import get_all_jobs, post_job, apply_to_job
 from database import get_connection
 
 st.title("Job Vacancy Portal")
